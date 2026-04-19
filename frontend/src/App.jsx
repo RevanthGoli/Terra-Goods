@@ -509,7 +509,7 @@ const AuthPage = ({ onAuth }) => {
         {["email","password"].map(f => (
           <div key={f} style={{ marginBottom:14 }}>
             <label style={{ fontSize:10, letterSpacing:1.5, textTransform:"uppercase", color:"var(--clay)", display:"block", marginBottom:5 }}>{f}</label>
-            <input type={f==="password"?"password":"email"} value={form[f]} onChange={e=>setForm(fm=>({...fm,[f]:e.target.value}))} placeholder={f==="email"?"you@email.com":"••••••••"} onKeyDown={e=>e.key==="Enter"&&submit()} style={{ width:"100%", padding:"11px 12px", border:"1px solid var(--warm)", background:"var(--cream)", fontSize:13, outline:"none", borderRadius:2 }} />
+            <input type={f==="password"?"password":"email"} value={form[f]} onChange={e=>setForm(fm=>({...fm,[f]:e.target.value}))} placeholder={f==="email"?"you@email.com":"••••••••"} onKeyDown={e=>e.key==="Enter"&&submit()} style={{ color:"var(--ink)", width:"100%", padding:"11px 12px", border:"1px solid var(--warm)", background:"var(--cream)", fontSize:13, outline:"none", borderRadius:2 }} />
           </div>
         ))}
         {err && <p style={{ fontSize:12, color:"var(--rust)", marginBottom:12 }}>{err}</p>}
