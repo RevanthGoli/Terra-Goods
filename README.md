@@ -62,7 +62,7 @@ Replace `src/App.jsx` with the provided file, then:
 npm run dev
 ```
 
-React runs on **-----**
+React runs on **https://terra-goods.vercel.app/**
 
 ---
 
