@@ -86,18 +86,23 @@ React runs on **-----**
 
 -------------------------------------------------------------
 
-💳 Payment Integration Guide
-Overview
+## 💳 Payment Integration Guide
+
+### Overview
+
 I've added a complete payment processing system to your e-commerce website with support for multiple payment methods and secure checkout.
 
-✨ Features
-Payment Methods
+## ✨ Features
+
+### Payment Methods
+
 ✅ Credit Card - Full card form with validation
 ✅ PayPal - Redirect to PayPal
 ✅ Apple Pay - One-click payment
 ✅ Google Pay - Mobile wallet
 
-Checkout Features
+### Checkout Features
+
 ✅ Shipping Form - Full address collection
 ✅ Order Summary - Cart review with totals
 ✅ Real-time Calculation - Tax & totals auto-calculated
@@ -105,7 +110,8 @@ Checkout Features
 ✅ Input Validation - Card format checking
 ✅ Order Confirmation - Receipt generation
 
-Security
+### Security
+
 ✅ Form Validation - Client-side checks
 ✅ Secure Messaging - SSL/TLS ready
 ✅ Encrypted Display - Lock icons shown
