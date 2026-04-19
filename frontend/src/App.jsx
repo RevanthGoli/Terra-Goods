@@ -359,11 +359,11 @@ const PaymentPage = ({ cart, total, onPaymentSuccess, onCancel }) => {
           {paymentMethod === "card" && (
             <div style={{ background:"var(--warm)", padding:24, borderRadius:2, marginBottom:20 }}>
               <h4 style={{ fontSize:14, fontWeight:500, color:"var(--ink)", marginBottom:14 }}>Card Details</h4>
-              <input name="name" placeholder="Cardholder Name" value={cardData.name} onChange={handleCardChange} style={{color:"var(--ink)", width:"100%", padding:"12px 14px", border:"1px solid var(--sand)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none", marginBottom:12 }} />
-              <input name="number" placeholder="Card Number" value={cardData.number} onChange={handleCardChange} style={{color:"var(--ink)", width:"100%", padding:"12px 14px", border:"1px solid var(--sand)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none", marginBottom:12, fontFamily:"monospace" }} />
+              <input name="name" placeholder="Cardholder Name" value={cardData.name} onChange={handleCardChange} style={{ width:"100%", padding:"12px 14px", border:"1px solid var(--sand)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none", marginBottom:12, color:"var(--ink)" }} />
+              <input name="number" placeholder="Card Number" value={cardData.number} onChange={handleCardChange} style={{ width:"100%", padding:"12px 14px", border:"1px solid var(--sand)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none", marginBottom:12, fontFamily:"monospace", color:"var(--ink)" }} />
               <div style={{ display:"grid", gridTemplateColumns:"2fr 1fr", gap:12 }}>
-                <input name="expiry" placeholder="MM/YY" value={cardData.expiry} onChange={handleCardChange} style={{color:"var(--ink)", padding:"12px 14px", border:"1px solid var(--sand)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none" }} />
-                <input name="cvc" placeholder="CVC" value={cardData.cvc} onChange={handleCardChange} style={{color:"var(--ink)", padding:"12px 14px", border:"1px solid var(--sand)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none" }} />
+                <input name="expiry" placeholder="MM/YY" value={cardData.expiry} onChange={handleCardChange} style={{ padding:"12px 14px", border:"1px solid var(--sand)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none", color:"var(--ink)" }} />
+                <input name="cvc" placeholder="CVC" value={cardData.cvc} onChange={handleCardChange} style={{padding:"12px 14px", border:"1px solid var(--sand)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none", color:"var(--ink)" }} />
               </div>
               <p style={{ fontSize:11, color:"var(--clay)", marginTop:12, display:"flex", alignItems:"center", gap:6 }}>
                 <Icon d={I.lock} size={14} stroke="var(--sage)" />
