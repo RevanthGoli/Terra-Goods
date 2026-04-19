@@ -324,15 +324,16 @@ const PaymentPage = ({ cart, total, onPaymentSuccess, onCancel }) => {
             </div>
             <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:12 }}>
               <input name="firstName" placeholder="First Name" value={shipping.firstName} onChange={handleShippingChange} style={{color:"var(--ink)", padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none" }} />
-              <input name="lastName" placeholder="Last Name" value={shipping.lastName} onChange={handleShippingChange} style={{ padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none" }} />
+              <input name="lastName" placeholder="Last Name" value={shipping.lastName} onChange={handleShippingChange} style={{color:"var(--ink)",
+                 padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none" }} />
             </div>
-            <input name="email" type="email" placeholder="Email Address" value={shipping.email} onChange={handleShippingChange} style={{ width:"100%", padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none", marginTop:12 }} />
-            <input name="phone" placeholder="Phone Number" value={shipping.phone} onChange={handleShippingChange} style={{ width:"100%", padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none", marginTop:12 }} />
-            <input name="address" placeholder="Street Address" value={shipping.address} onChange={handleShippingChange} style={{ width:"100%", padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none", marginTop:12 }} />
+            <input name="email" type="email" placeholder="Email Address" value={shipping.email} onChange={handleShippingChange} style={{color:"var(--ink)", width:"100%", padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none", marginTop:12 }} />
+            <input name="phone" placeholder="Phone Number" value={shipping.phone} onChange={handleShippingChange} style={{color:"var(--ink)", width:"100%", padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none", marginTop:12 }} />
+            <input name="address" placeholder="Street Address" value={shipping.address} onChange={handleShippingChange} style={{color:"var(--ink)", width:"100%", padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none", marginTop:12 }} />
             <div style={{ display:"grid", gridTemplateColumns:"2fr 1fr 1fr", gap:12, marginTop:12 }}>
-              <input name="city" placeholder="City" value={shipping.city} onChange={handleShippingChange} style={{ padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none" }} />
-              <input name="state" placeholder="State" value={shipping.state} onChange={handleShippingChange} style={{ padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none" }} />
-              <input name="zip" placeholder="ZIP Code" value={shipping.zip} onChange={handleShippingChange} style={{ padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none" }} />
+              <input name="city" placeholder="City" value={shipping.city} onChange={handleShippingChange} style={{color:"var(--ink)", padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none" }} />
+              <input name="state" placeholder="State" value={shipping.state} onChange={handleShippingChange} style={{color:"var(--ink)", padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none" }} />
+              <input name="zip" placeholder="ZIP Code" value={shipping.zip} onChange={handleShippingChange} style={{color:"var(--ink)", padding:"12px 14px", border:"1px solid var(--warm)", background:"var(--white)", borderRadius:2, fontSize:13, outline:"none" }} />
             </div>
           </div>
 
